@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		812FCD951F15BCA900603C02 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812FCD941F15BCA900603C02 /* PokemonDetailVC.swift */; };
 		8181C5381F14AD0B003D7DAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8181C5371F14AD0B003D7DAC /* AppDelegate.swift */; };
 		8181C53A1F14AD0C003D7DAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8181C5391F14AD0C003D7DAC /* ViewController.swift */; };
 		8181C53D1F14AD0C003D7DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8181C53B1F14AD0C003D7DAC /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		812FCD941F15BCA900603C02 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
 		8181C5341F14AD0B003D7DAC /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8181C5371F14AD0B003D7DAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8181C5391F14AD0C003D7DAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				8181C5391F14AD0C003D7DAC /* ViewController.swift */,
+				812FCD941F15BCA900603C02 /* PokemonDetailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				8181C5501F14C097003D7DAC /* PokeCell.swift in Sources */,
 				8181C53A1F14AD0C003D7DAC /* ViewController.swift in Sources */,
 				8181C5381F14AD0B003D7DAC /* AppDelegate.swift in Sources */,
+				812FCD951F15BCA900603C02 /* PokemonDetailVC.swift in Sources */,
 				8181C54D1F14B7C3003D7DAC /* Pokemon.swift in Sources */,
 				8181C5521F14CBA3003D7DAC /* csv.swift in Sources */,
 			);
@@ -366,6 +370,7 @@
 				8181C5481F14AD0C003D7DAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
